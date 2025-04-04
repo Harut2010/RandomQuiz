@@ -69,8 +69,44 @@ public class MainActivity extends AppCompatActivity {
         questionList.add(new Question("Which element has the chemical symbol 'O'?",
                 List.of("Oxygen", "Osmium", "Oxalate", "Oganesson"), 0));
 
-        questionList.add(new Question("What is the largest mammal on Earth?",
-                List.of("Blue Whale", "Elephant", "Giraffe", "Great White Shark"), 0));
+        questionList.add(new Question("Which ocean is the largest?",
+                List.of("Atlantic Ocean", "Indian Ocean", "Arctic Ocean", "Pacific Ocean"), 3));
+
+        questionList.add(new Question("Who painted the Mona Lisa?",
+                List.of("Vincent Van Gogh", "Pablo Picasso", "Leonardo da Vinci", "Claude Monet"), 2));
+
+        questionList.add(new Question("What is the boiling point of water in Celsius?",
+                List.of("90°C", "100°C", "110°C", "120°C"), 1));
+
+        questionList.add(new Question("Which gas do plants use for photosynthesis?",
+                List.of("Oxygen", "Carbon Dioxide", "Nitrogen", "Hydrogen"), 1));
+
+        questionList.add(new Question("What is the longest river in the world?",
+                List.of("Amazon River", "Nile River", "Mississippi River", "Yangtze River"), 1));
+
+        questionList.add(new Question("Who wrote 'Romeo and Juliet'?",
+                List.of("Charles Dickens", "William Shakespeare", "Mark Twain", "Jane Austen"), 1));
+
+        questionList.add(new Question("What is the largest desert in the world?",
+                List.of("Sahara Desert", "Antarctica", "Gobi Desert", "Kalahari Desert"), 1));
+
+        questionList.add(new Question("Which country is famous for the Eiffel Tower?",
+                List.of("Italy", "Spain", "France", "Germany"), 2));
+
+        questionList.add(new Question("What is the fastest land animal?",
+                List.of("Lion", "Cheetah", "Tiger", "Jaguar"), 1));
+
+        questionList.add(new Question("Which animal is known as the 'Ship of the Desert'?",
+                List.of("Elephant", "Horse", "Camel", "Donkey"), 2));
+
+        questionList.add(new Question("How many continents are there on Earth?",
+                List.of("5", "6", "7", "8"), 2));
+
+        questionList.add(new Question("What is the smallest country in the world?",
+                List.of("Monaco", "Vatican City", "Malta", "Liechtenstein"), 1));
+
+        questionList.add(new Question("Which is the longest mountain range in the world?",
+                List.of("Rocky Mountains", "Andes Mountains", "Himalayas", "Alps"), 1));
     }
 
     private void displayQuestion() {
