@@ -107,6 +107,54 @@ public class MainActivity extends AppCompatActivity {
 
         questionList.add(new Question("Which is the longest mountain range in the world?",
                 List.of("Rocky Mountains", "Andes Mountains", "Himalayas", "Alps"), 1));
+        questionList.add(new Question("What is the capital of France?",
+                List.of(new String[]{"Berlin", "Madrid", "Paris", "Rome"}), 2));
+        questionList.add(new Question("Which gas do plants absorb?",
+                List.of(new String[]{"Oxygen", "Carbon Dioxide", "Nitrogen", "Helium"}), 1));
+        questionList.add(new Question("Who wrote 'Hamlet'?",
+                List.of(new String[]{"Charles Dickens", "Leo Tolstoy", "Shakespeare", "Mark Twain"}), 2));
+        questionList.add(new Question("Which planet is closest to the sun?",
+                List.of(new String[]{"Venus", "Mercury", "Earth", "Mars"}), 1));
+        questionList.add(new Question("What is the square root of 64?",
+                List.of(new String[]{"6", "8", "7", "9"}), 1));
+        questionList.add(new Question("In Android, what file contains the app permissions?",
+                List.of(new String[]{"build.gradle", "strings.xml", "MainActivity.java", "AndroidManifest.xml"}), 3));
+        questionList.add(new Question("What is the largest mammal?",
+                List.of(new String[]{"Elephant", "Giraffe", "Blue Whale", "Hippopotamus"}), 2));
+        questionList.add(new Question("Which language is used to style web pages?",
+                List.of(new String[]{"HTML", "Python", "CSS", "Java"}), 2));
+        questionList.add(new Question("What is H2O commonly known as?", List.of(new String[]{"Salt", "Oxygen", "Hydrogen", "Water"}), 3));
+        questionList.add(new Question("What is the main ingredient in guacamole?",
+                List.of(new String[]{"Lettuce", "Tomato", "Avocado", "Pepper"}), 2));
+        questionList.add(new Question("What is the powerhouse of the cell?",
+                List.of(new String[]{"Nucleus", "Mitochondria", "Ribosome", "Chloroplast"}), 1));
+        questionList.add(new Question("Who painted the Mona Lisa?",
+                List.of(new String[]{"Van Gogh", "Picasso", "Da Vinci", "Michelangelo"}), 2));
+        questionList.add(new Question("What is the capital city of Australia?",
+                List.of(new String[]{"Sydney", "Melbourne", "Canberra", "Perth"}), 2));
+        questionList.add(new Question("Which planet has rings?",
+                List.of(new String[]{"Earth", "Mars", "Saturn", "Venus"}), 2));
+        questionList.add(new Question("What year did man land on the moon?",
+                List.of(new String[]{"1965", "1969", "1972", "1959"}), 1));
+        questionList.add(new Question("Which organ pumps blood throughout the human body?",
+                List.of(new String[]{"Brain", "Liver", "Lungs", "Heart"}), 3));
+        questionList.add(new Question("What does HTTP stand for?",
+                List.of(new String[]{"HyperText Transfer Protocol", "HighText Transfer Protocol", "Hyperloop Transfer Protocol", "None"}), 0));
+        questionList.add(new Question("Which country invented tea?",
+                List.of(new String[]{"India", "China", "Japan", "England"}), 1));
+        questionList.add(new Question("What is Java primarily used for in Android?",
+                List.of(new String[]{"Web Design", "Operating Systems", "App Development", "Game Consoles"}), 2));
+        questionList.add(new Question("Which ocean is the largest?",
+                List.of(new String[]{"Atlantic", "Pacific", "Indian", "Arctic"}), 1));
+        questionList.add(new Question("What color are the stars in the U.S. flag?",
+                List.of(new String[]{"Red", "Blue", "White", "Yellow"}), 2));
+        questionList.add(new Question("Which instrument has 88 keys?",
+                List.of(new String[]{"Guitar", "Flute", "Piano", "Saxophone"}), 2));
+        questionList.add(new Question("Which planet is known for its red appearance?",
+                List.of(new String[]{"Jupiter", "Mars", "Venus", "Saturn"}), 1));
+        questionList.add(new Question("In which country is the Great Pyramid of Giza?",
+                List.of(new String[]{"Mexico", "Iraq", "India", "Egypt"}), 3));
+
     }
 
     private void displayQuestion() {
