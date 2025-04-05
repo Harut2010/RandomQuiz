@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
         submitButton = findViewById(R.id.submitButton);
 
         loadQuestions();
-        Collections.shuffle(questionList); // Randomize questions
+        Collections.shuffle(questionList);
         displayQuestion();
 
         submitButton.setOnClickListener(new View.OnClickListener() {
@@ -128,8 +128,6 @@ public class MainActivity extends AppCompatActivity {
                 List.of(new String[]{"Lettuce", "Tomato", "Avocado", "Pepper"}), 2));
         questionList.add(new Question("What is the powerhouse of the cell?",
                 List.of(new String[]{"Nucleus", "Mitochondria", "Ribosome", "Chloroplast"}), 1));
-        questionList.add(new Question("Who painted the Mona Lisa?",
-                List.of(new String[]{"Van Gogh", "Picasso", "Da Vinci", "Michelangelo"}), 2));
         questionList.add(new Question("What is the capital city of Australia?",
                 List.of(new String[]{"Sydney", "Melbourne", "Canberra", "Perth"}), 2));
         questionList.add(new Question("Which planet has rings?",
@@ -144,8 +142,6 @@ public class MainActivity extends AppCompatActivity {
                 List.of(new String[]{"India", "China", "Japan", "England"}), 1));
         questionList.add(new Question("What is Java primarily used for in Android?",
                 List.of(new String[]{"Web Design", "Operating Systems", "App Development", "Game Consoles"}), 2));
-        questionList.add(new Question("Which ocean is the largest?",
-                List.of(new String[]{"Atlantic", "Pacific", "Indian", "Arctic"}), 1));
         questionList.add(new Question("What color are the stars in the U.S. flag?",
                 List.of(new String[]{"Red", "Blue", "White", "Yellow"}), 2));
         questionList.add(new Question("Which instrument has 88 keys?",
