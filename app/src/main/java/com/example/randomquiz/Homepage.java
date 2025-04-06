@@ -44,7 +44,6 @@ public class Homepage extends AppCompatActivity {
         option4 = findViewById(R.id.option4);
         submitButton = findViewById(R.id.submitButton);
 
-        totalQuestions = 5;
 
         loadQuestions();
         Collections.shuffle(questionList);
@@ -205,7 +204,7 @@ public class Homepage extends AppCompatActivity {
 
         if (selectedOption == -1) {
             Toast.makeText(this, "Please select an answer!", Toast.LENGTH_SHORT).show();
-            return; // Stop here, don't move to next question
+            return;
         }
 
         if (selectedOption == questionList.get(currentQuestionIndex).getCorrectAnswerIndex()) {
